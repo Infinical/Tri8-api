@@ -51,8 +51,8 @@ jobs:
 
       # run tests!
       - run:
-        name: run tests
-        command: bundle exec rake ci:tests
+          name: run tests
+          command: bundle exec rake ci:tests
 
       # collect reports
       - store_test_results:
