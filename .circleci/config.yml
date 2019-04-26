@@ -2,9 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
-      - image: circleci/ruby:2.5.5-node
-        environment:
+    - image: circleci/ruby:2.5.5-node
+      environment:
         BUNDLER_VERSION: 2.0.1
         RAILS_ENV: test
         PGHOST: 127.0.01
