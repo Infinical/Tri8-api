@@ -39,3 +39,5 @@ end
 
 gem 'rubocop', '~> 0.67.2'
 gem 'rubocop-performance'
+
+gem 'devise_token_auth'
