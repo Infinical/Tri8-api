@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 20_190_508_051_534) do
     t.datetime 'updated_at', null: false
   end
 
-<<<<<<< HEAD
   create_table 'users', force: :cascade do |t|
     t.string 'provider', default: 'email', null: false
     t.string 'uid', default: '', null: false
@@ -48,14 +47,5 @@ ActiveRecord::Schema.define(version: 20_190_508_051_534) do
     t.index ['email'], name: 'index_users_on_email', unique: true
     t.index ['reset_password_token'], name: 'index_users_on_reset_password_token', unique: true
     t.index %w[uid provider], name: 'index_users_on_uid_and_provider', unique: true
-=======
-  create_table "meals", force: :cascade do |t|
-    t.string "name"
-    t.string "description"
-    t.string "image"
-    t.integer "price"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
->>>>>>> 9e01b5cafa7595a57ba8e61079635a17fd3fb7e9
   end
 end
