@@ -37,6 +37,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+op
 gem 'rubocop', '~> 0.67.2'
 gem 'rubocop-performance'
 
