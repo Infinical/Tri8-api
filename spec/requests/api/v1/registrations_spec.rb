@@ -1,3 +1,4 @@
+
 RSpec.describe 'User Registration', type: :request do
     let(:headers) { { HTTP_ACCEPT: 'application/json' } }
   
